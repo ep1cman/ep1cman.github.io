@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+<div class="row">
+	{% for post in site.categories[page.type] %}
+	    <div class="col-sm-3">
+	        <a href="{{ site.url }}{{ post.url }}">
+	             <center>
+	             	<img src="{{ site.url }}/images/thumbs{{ post.id }}.png" class="img-responsive">
+	             	{{ post.title }}
+	             </center>
+	        </a>
+	    </div>
+	{% endfor %}
+</div>

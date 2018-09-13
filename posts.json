@@ -1,0 +1,14 @@
+---
+---
+[
+    {% for post in site.posts %}
+    {% if post.category != "art" %}
+    {
+      "title"    : "{{ post.title }}",
+      "href"     : "{{ post.url }}",
+      "thumb"    : "/images/thumbs{{ post.id }}.png"
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endif %}
+    {% endfor %}
+]

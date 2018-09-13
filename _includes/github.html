@@ -1,0 +1,21 @@
+
+{% if include.gist %}
+<div class="centered">
+  {% if include.file %}
+  <a class="btn" href="https://gist.github.com/ep1cman/{{ include.gist }}/{{ include.file }}" role="button">
+    <span class="octicon octicon-cloud-download"></span> Download
+  </a> {% endif %}
+  <a class="btn" href="https://gist.github.com/ep1cman/{{ include.gist }}" role="button" target="_blank">
+    <span class="octicon octicon-logo-gist"></span>
+  </a>
+</div>
+{% else %}
+<div class="centered">
+  <a class="btn" href="https://github.com/ep1cman/{{ include.repo }}/archive/master.zip" role="button">
+    <span class="octicon octicon-cloud-download"></span> Download
+  </a>
+  <a class="btn" href="https://github.com/ep1cman/{{ include.repo }}" role="button" target="_blank">
+    <span class="octicon octicon-logo-github"></span>
+  </a>
+</div>
+{% endif %}

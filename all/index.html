@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="row">
+	{% for post in site.posts %}
+        {% if post.category != "art" %}
+	      <div class="col-sm-3">
+	        <a href="{{ site.url }}{{ post.url }}">
+	             <center>
+								<img src="{{ site.url }}/images/thumbs{{ post.id }}.png" class="img-responsive">
+	             	{{ post.title }}
+	             </center>
+	        </a>
+	      </div>
+        {% endif %}
+	{% endfor %}
+</div>

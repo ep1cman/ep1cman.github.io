@@ -1,0 +1,31 @@
+
+{% case include.type %}
+{% when 'download' %}
+  {% assign text="Download" %}
+  {% assign icon="cloud-download" %}
+  {% assign class="" %}
+{% when 'donate' %}
+  {% assign text="Donate" %}
+  {% assign icon="gift light" %}
+  {% assign class="btn-primary" %}
+{% else %}
+  {% assign text="Button" %}
+  {% assign icon="" %}
+  {% assign class="" %}
+{% endcase %}
+
+{% if include.text %}
+  {% assign text=include.text %}
+{% endif %}
+{% if include.icon %}
+  {% assign icon=include.icon %}
+{% endif %}
+{% if include.class %}
+  {% assign class=include.class %}
+{% endif %}
+
+<div class="centered">
+  <a class="btn {{ class }}" href="{{ include.url }}" role="button" target="_blank">
+    {% if icon %}<span class="octicon octicon-{{ icon }}"></span>{% endif %} {{ text }}
+  </a>
+</div>
