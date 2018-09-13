@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>
+      
+        Capacitance Meter &middot; Sebastian Goscik
+      
+    </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://goscik.com/style.css">
+
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Sebastian Goscik" href="http://goscik.com/atom.xml">
+  </head>
+
+  <body>
+    <div class="container content">
+      <header>
+          <div id="title">
+            <a href="http://goscik.com">Sebastian Goscik</a>
+          </div>
+
+          <div id="subtitle">
+            Maker, Hacker and Electronic Engineer
+          </div>
+
+          <nav class="navbar" id="main-nav">
+            <a class="navbar-brand" href="http://goscik.com/about">About Me</a>
+            
+            
+              <a class="navbar-brand" href="http://goscik.com/art">art</a>
+            
+              <a class="navbar-brand" href="http://goscik.com/electronics">electronics</a>
+            
+              <a class="navbar-brand" href="http://goscik.com/misc">misc</a>
+            
+              <a class="navbar-brand" href="http://goscik.com/software">software</a>
+            
+
+            <a class="navbar-brand" href="http://goscik.com/all">All Projects</a>
+            <a class="navbar-brand" href="http://goscik.com/contact">Contact</a>
+          </nav>
+      </header>
+
+      <main>
+        <article class="post">
+  <div class="post-title">Capacitance Meter</div>
+      <script>
+	var images = {cad: ["/images/cap-meter/Assembly1.png",
+					            "/images/cap-meter/Assembly2.png",
+					            "/images/cap-meter/Assembly3.png"],
+
+		            pcb: ["/images/cap-meter/pcb.png",
+                 	    "/images/cap-meter/pcb-photo.png"],
+
+                schematic: ["/images/cap-meter/schematic.png",
+                    		    "/images/cap-meter/block-diagram.png"],
+
+                photo: ["/images/cap-meter/photo.png"]};
+</script>
+
+<div class="grid">
+  <div class="col-1-3">
+    <p>For my first end of year project at the University of Surrey I was tasked with designing and constructing a capacitance adapter for a voltmeter. I went beyond the initial specification and managed to add digital readout and get a professionally produced PCB while still remaining within the given £15/unit budget.</p>
+
+    <p class="heading">Circuit:</p>
+    <p>The circuit works by generating a triangle wave using a Schmitt trigger-Integrator Oscillator. This signal is passed through the capacitor being measured into a differentiator which will output a square wave with an amplitude proportional to the input capacitance. Multiple resistor values are selectable to allow for a broad measurement range (2pF-2uF). This signal then rectified to achieve a DC output.</p>
+  </div>
+
+  <div class="slideshow col-2-3">
+    <p><img id="schematic" src="" class="img-responsive" /></p>
+    <div id="schematic-text">
+      <p><a href="#" onclick="goPrev('schematic')">Previous</a> / <a href="#" onclick="goNext('schematic')">Next</a>
+<span class="oftext" id="schematic-of"></span></p>
+    </div>
+  </div>
+
+</div>
+
+<div class="grid">
+
+  <div class="slideshow col-2-3">
+    <p><img id="pcb" src="" class="img-responsive" /></p>
+    <div id="pcb-text">
+      <p><a href="#" onclick="goPrev('pcb')">Previous</a> / <a href="#" onclick="goNext('pcb')">Next</a>
+<span class="oftext" id="pcb-of"></span></p>
+    </div>
+  </div>
+
+  <div class="col-1-3">
+    <p class="heading">PCB:</p>
+    <p>For the PCBs DFROBOT was chosen because they offered cheap PCBs with DHL shipping. The time delay in getting deliveries from China post would have been too long for this project.</p>
+
+    <p>To keep costs down the design had to fit on a 500mm x 500mm two layer board. This meant the design had to use SMD components. Since the circuit featured a digital readout, the output sockets would not be used much. To cut costs further were replaced by 4mm through plated holes, these worked surprisingly well.</p>
+
+    <p>I still have plenty of PCBs left over, if you would like one just use the contact page.</p>
+
+    <p>The board was designed using EAGLE</p>
+  </div>
+
+</div>
+<div class="grid">
+  <div class="col-1-3">
+    <p class="heading">Case:</p>
+    <p>The case for this project was designed in Autocad 123D. The case was designed in 3 parts (Main case body, lid, block to stop 4mm jacks being pushed in too far) such that it could easily be 3D printed on a RepRap Prusa Mendel. Using a 3D printer allowed for rapid prototyping of cases and allowed mistakes to be corrected without much issue.</p>
+
+    <p>The PCB simply slides into the main case body along with a 9V battery the lid is then screwed down using 4 small self tapping screws.</p>
+
+    <p class="heading">Code:</p>
+    <p>This project uses a Texas Instruments MSP430G2553 to handle Autoranging, Averaging and Display. To speed up development Energia was used to provide an arduino based environment for the MSP430. The code reads the meter output using a 1V internal voltage reference, averaging 258 readings. This is then translated into 7 segment digits (hex values were obtained from a script I made). These are then shifted into a shift register and the 4 displays multiplexed.</p>
+
+  </div>
+
+  <div class="slideshow col-2-3">
+    <p><img id="cad" src="" class="img-responsive" /></p>
+    <div id="cad-text">
+      <p><a href="#" onclick="goPrev('cad')">Previous</a> / <a href="#" onclick="goNext('cad')">Next</a>
+<span class="oftext" id="cad-of"></span></p>
+    </div>
+  </div>
+
+</div>
+
+<div class="grid">
+
+  <div class="slideshow col-2-3">
+    <p><img id="photo" src="" class="img-responsive" /></p>
+    <div id="photo-text">
+      <p><a href="#" onclick="goPrev('photo')">Previous</a> / <a href="#" onclick="goNext('photo')">Next</a>
+<span class="oftext" id="photo-of"></span></p>
+    </div>
+  </div>
+
+  <div class="col-1-3">
+    <p class="heading">Final features:</p>
+
+    <ul>
+      <li>30pF-2uF Range</li>
+      <li>2% Accuracy</li>
+      <li>258 Averages</li>
+      <li>Multimeter output &amp; Built in digital read out</li>
+      <li>Auto ranging</li>
+      <li>Individual range calibration</li>
+      <li>Compact size (5cm x 5cm x 2.5cm)</li>
+      <li>Battery powered</li>
+      <li>£12 Unit cost (at time of writing)</li>
+    </ul>
+
+    <div class="centered">
+      <p><a class="btn" href="https://github.com/ep1cman/FM/archive/master.zip" role="button">
+    <span class="octicon octicon-cloud-download"></span> Download
+  </a>
+  <a class="btn" href="https://github.com/ep1cman/FM" role="button" target="_blank">
+    <span class="octicon octicon-logo-github"></span>
+  </a></p>
+    </div>
+
+    <div class="centered">
+      <p><br />
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
+    </div>
+
+  </div>
+</div>
+
+</article>
+<script src="http://goscik.com/scripts/slideshow.js"></script>
+
+      </main>
+
+      <p></p>
+
+      <footer class="footer centered">
+        Powered by <a href="">Jekyll</a> - Theme based on the <a href="https://github.com/mikaelstaer/The-Secretary/tree/master/site/themes/humii">Humii</a>
+      </footer>
+    </div>
+  </body>
+</html>

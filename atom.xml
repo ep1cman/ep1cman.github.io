@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Sebastian Goscik</title>
+ <link href="http://goscik.com/atom.xml" rel="self"/>
+ <link href="http://goscik.com/"/>
+ <updated>2018-09-13T21:14:27+01:00</updated>
+ <id>http://goscik.com</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/birds/"/>
+   <updated>2018-03-07T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/birds</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/dohnut/"/>
+   <updated>2018-03-02T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/dohnut</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/weight/"/>
+   <updated>2018-02-19T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/weight</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/small-things/"/>
+   <updated>2018-02-18T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/small-things</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/greener/"/>
+   <updated>2018-02-17T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/greener</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/love-yourself/"/>
+   <updated>2018-02-16T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/love-yourself</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Small Things</title>
+   <link href="http://goscik.com/art/one-in-a-million/"/>
+   <updated>2018-02-15T00:00:00+00:00</updated>
+   <id>http://goscik.com/art/one-in-a-million</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Plex Remote</title>
+   <link href="http://goscik.com/electronics/plex-remote/"/>
+   <updated>2015-11-07T00:00:00+00:00</updated>
+   <id>http://goscik.com/electronics/plex-remote</id>
+   <content type="html">&lt;script&gt;
+	var images = {photo: [&quot;/images/plex-ir/photo.jpg&quot;]};
+&lt;/script&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;&lt;strong&gt;Featured on &lt;a href=&quot;https://hackaday.com/2015/11/22/control-your-htpc-with-scavenged-ir-parts/&quot;&gt;Hack A Day&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Using only an Arduino Micro that you can pickup for ~£2 from china and an IR
+receiver that you can most likely scavenge out of an old set top box, you can
+make a USB IR receiver that can control Plex Home Theater (or any other keyboard
+controlled application e.g. Steam).&lt;/p&gt;
+
+    &lt;p&gt;This Arduino sketch will print out unknown button codes via serial, you can then
+type those into the sketch along with the keys you want to be pressed. Don’t
+forget to check your IR receiver pinout matches the code. If not change the
+values at the top of the sketch to match.&lt;/p&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/Plex-IR/archive/master.zip&quot; role=&quot;button&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+  &lt;/a&gt;
+  &lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/Plex-IR&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-logo-github&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;photo&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;photo-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('photo')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('photo')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;photo-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ERNIE</title>
+   <link href="http://goscik.com/electronics/ERNIE/"/>
+   <updated>2015-09-23T00:00:00+01:00</updated>
+   <id>http://goscik.com/electronics/ERNIE</id>
+   <content type="html">
+&lt;div class=&quot;centered&quot;&gt;
+  &lt;p&gt;&lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/E.R.N.I.E/archive/master.zip&quot; role=&quot;button&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+  &lt;/a&gt;
+  &lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/E.R.N.I.E&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-logo-github&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+  &lt;pre&gt;400: Invalid request
+&lt;/pre&gt;
+&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/82c5d674ca6bddb0285e.js?file=pipe_t_peice.stl&quot;&gt; &lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Capacitance Meter</title>
+   <link href="http://goscik.com/electronics/capacitance-meter/"/>
+   <updated>2014-06-21T00:00:00+01:00</updated>
+   <id>http://goscik.com/electronics/capacitance-meter</id>
+   <content type="html">&lt;script&gt;
+	var images = {cad: [&quot;/images/cap-meter/Assembly1.png&quot;,
+					            &quot;/images/cap-meter/Assembly2.png&quot;,
+					            &quot;/images/cap-meter/Assembly3.png&quot;],
+
+		            pcb: [&quot;/images/cap-meter/pcb.png&quot;,
+                 	    &quot;/images/cap-meter/pcb-photo.png&quot;],
+
+                schematic: [&quot;/images/cap-meter/schematic.png&quot;,
+                    		    &quot;/images/cap-meter/block-diagram.png&quot;],
+
+                photo: [&quot;/images/cap-meter/photo.png&quot;]};
+&lt;/script&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;For my first end of year project at the University of Surrey I was tasked with designing and constructing a capacitance adapter for a voltmeter. I went beyond the initial specification and managed to add digital readout and get a professionally produced PCB while still remaining within the given £15/unit budget.&lt;/p&gt;
+
+    &lt;p class=&quot;heading&quot;&gt;Circuit:&lt;/p&gt;
+    &lt;p&gt;The circuit works by generating a triangle wave using a Schmitt trigger-Integrator Oscillator. This signal is passed through the capacitor being measured into a differentiator which will output a square wave with an amplitude proportional to the input capacitance. Multiple resistor values are selectable to allow for a broad measurement range (2pF-2uF). This signal then rectified to achieve a DC output.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;schematic&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;schematic-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('schematic')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('schematic')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;schematic-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;pcb&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;pcb-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('pcb')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('pcb')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;pcb-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p class=&quot;heading&quot;&gt;PCB:&lt;/p&gt;
+    &lt;p&gt;For the PCBs DFROBOT was chosen because they offered cheap PCBs with DHL shipping. The time delay in getting deliveries from China post would have been too long for this project.&lt;/p&gt;
+
+    &lt;p&gt;To keep costs down the design had to fit on a 500mm x 500mm two layer board. This meant the design had to use SMD components. Since the circuit featured a digital readout, the output sockets would not be used much. To cut costs further were replaced by 4mm through plated holes, these worked surprisingly well.&lt;/p&gt;
+
+    &lt;p&gt;I still have plenty of PCBs left over, if you would like one just use the contact page.&lt;/p&gt;
+
+    &lt;p&gt;The board was designed using EAGLE&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p class=&quot;heading&quot;&gt;Case:&lt;/p&gt;
+    &lt;p&gt;The case for this project was designed in Autocad 123D. The case was designed in 3 parts (Main case body, lid, block to stop 4mm jacks being pushed in too far) such that it could easily be 3D printed on a RepRap Prusa Mendel. Using a 3D printer allowed for rapid prototyping of cases and allowed mistakes to be corrected without much issue.&lt;/p&gt;
+
+    &lt;p&gt;The PCB simply slides into the main case body along with a 9V battery the lid is then screwed down using 4 small self tapping screws.&lt;/p&gt;
+
+    &lt;p class=&quot;heading&quot;&gt;Code:&lt;/p&gt;
+    &lt;p&gt;This project uses a Texas Instruments MSP430G2553 to handle Autoranging, Averaging and Display. To speed up development Energia was used to provide an arduino based environment for the MSP430. The code reads the meter output using a 1V internal voltage reference, averaging 258 readings. This is then translated into 7 segment digits (hex values were obtained from a script I made). These are then shifted into a shift register and the 4 displays multiplexed.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;cad&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;cad-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('cad')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('cad')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;cad-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;photo&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;photo-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('photo')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('photo')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;photo-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p class=&quot;heading&quot;&gt;Final features:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;30pF-2uF Range&lt;/li&gt;
+      &lt;li&gt;2% Accuracy&lt;/li&gt;
+      &lt;li&gt;258 Averages&lt;/li&gt;
+      &lt;li&gt;Multimeter output &amp;amp; Built in digital read out&lt;/li&gt;
+      &lt;li&gt;Auto ranging&lt;/li&gt;
+      &lt;li&gt;Individual range calibration&lt;/li&gt;
+      &lt;li&gt;Compact size (5cm x 5cm x 2.5cm)&lt;/li&gt;
+      &lt;li&gt;Battery powered&lt;/li&gt;
+      &lt;li&gt;£12 Unit cost (at time of writing)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/FM/archive/master.zip&quot; role=&quot;button&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+  &lt;/a&gt;
+  &lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/FM&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-logo-github&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;br /&gt;
+  &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pebble PC spotify control</title>
+   <link href="http://goscik.com/software/pebble-pc-spotify-control/"/>
+   <updated>2014-05-01T00:00:00+01:00</updated>
+   <id>http://goscik.com/software/pebble-pc-spotify-control</id>
+   <content type="html">&lt;script&gt;
+var images = {thumb: [&quot;/images/thumbs/software/pebble-pc-spotify-control.png&quot;]}
+&lt;/script&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;This python script connects a Windows PC to a Pebble smartwatch via bluetooth allowing control of the Spotify desktop application as well as displaying track information.&lt;/p&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+
+      &lt;p&gt;&lt;a class=&quot;btn&quot; href=&quot;https://gist.github.com/ep1cman/7f1fd961b62d2f96d44e//archive/20505d395a3727d586e1e28d296a48972477f185.zip&quot; role=&quot;button&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+  &lt;/a&gt; 
+  &lt;a class=&quot;btn&quot; href=&quot;https://gist.github.com/ep1cman/7f1fd961b62d2f96d44e&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-logo-gist&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;br /&gt;
+  &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;thumb&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;thumb-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('thumb')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('thumb')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;thumb-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>People Counter</title>
+   <link href="http://goscik.com/electronics/people-counter/"/>
+   <updated>2010-01-01T00:00:00+00:00</updated>
+   <id>http://goscik.com/electronics/people-counter</id>
+   <content type="html">&lt;script&gt;
+	var images = {schematic: [&quot;/images/people-counter/schematic.png&quot;]}
+&lt;/script&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;This project was done as my first year Electronics coursework at A Level. It consists of two units that sit either side of a door and count how many people have been in the store that day. It was constructed entirely out of discreet logic chips as microcontrollers were not allowed for this project.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;schematic&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;schematic-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('schematic')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('schematic')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;schematic-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Handwritting font</title>
+   <link href="http://goscik.com/misc/font/"/>
+   <updated>2010-01-01T00:00:00+00:00</updated>
+   <id>http://goscik.com/misc/font</id>
+   <content type="html">&lt;script&gt;
+	var images = {preview: [&quot;/images/font/preview.png&quot;]}
+&lt;/script&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;This is a font of my own hand writing I made quite a few years ago. It makes a great font to use in images that require handwritten text.&lt;/p&gt;
+
+    &lt;center&gt;
+ &lt;a class=&quot;btn&quot; href=&quot;https://gist.github.com/ep1cman11e23cc5b1ae13f55907/raw/60c99cbffeed79a82d019b8a2ae7f9a47e573abb/seb_spaced.ttf&quot; role=&quot;button&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+&lt;/a&gt;
+&lt;/center&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;br /&gt;
+  &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons Licence&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;preview&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;preview-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('preview')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('preview')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;preview-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Xperia PLAY camera mod</title>
+   <link href="http://goscik.com/software/camera-mod/"/>
+   <updated>2010-01-01T00:00:00+00:00</updated>
+   <id>http://goscik.com/software/camera-mod</id>
+   <content type="html">&lt;script&gt;
+	var images = {screenshots: [&quot;/images/camera-mod/screenshot1.jpg&quot;,
+	                            &quot;/images/camera-mod/screenshot2.jpg&quot;,
+										        	&quot;/images/camera-mod/red.png&quot;,
+										        	&quot;/images/camera-mod/blue.png&quot;]}
+&lt;/script&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;This app is a modification of the stock android app to allow the L and R buttons of the Xperia PLAY to function as focus and shutter button respectively. I have also fixed menu positioning and as a incentive for people to buy the donation version, it features custom skins!&lt;/p&gt;
+
+    &lt;p&gt;The app is available via the android market now!&lt;/p&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;a class=&quot;btn &quot; href=&quot;https://play.google.com/store/apps/details?id=seb.camera.mod&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;a class=&quot;btn btn-primary&quot; href=&quot;https://play.google.com/store/apps/details?id=seb.camera.mod.donation&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-gift light&quot;&gt;&lt;/span&gt; Donate
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;a class=&quot;btn &quot; href=&quot;https://github.com/ep1cman/FM/archive/master.zip&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Skins
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;slideshow col-2-3&quot;&gt;
+    &lt;p&gt;&lt;img id=&quot;screenshots&quot; src=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+    &lt;div id=&quot;screenshots-text&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;#&quot; onclick=&quot;goPrev('screenshots')&quot;&gt;Previous&lt;/a&gt; / &lt;a href=&quot;#&quot; onclick=&quot;goNext('screenshots')&quot;&gt;Next&lt;/a&gt;
+&lt;span class=&quot;oftext&quot; id=&quot;screenshots-of&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Breakout! Hackvision Edition</title>
+   <link href="http://goscik.com/software/breakout-hackvision/"/>
+   <updated>2010-01-01T00:00:00+00:00</updated>
+   <id>http://goscik.com/software/breakout-hackvision</id>
+   <content type="html">&lt;div class=&quot;grid&quot;&gt;
+
+  &lt;div class=&quot;col-1-3&quot;&gt;
+    &lt;p&gt;This is a recreation of the classic game breakout. I made this game for the
+&lt;a href=&quot;http://nootropicdesign.com/hackvision/&quot;&gt;hackvision&lt;/a&gt; games console by
+&lt;a href=&quot;http://nootropicdesign.com/&quot;&gt;Nootropic design&lt;/a&gt; but this game will work
+successfully on any arduino board with the TVout libary hardware and some push
+buttons. This game has been featured on the
+&lt;strong&gt;&lt;a href=&quot;http://nootropicdesign.com/hackvision/games.html&quot;&gt;Nootropic design games page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;UPDATE!&lt;/strong&gt; - v1.1 now features Wii nunchuk controles!&lt;/p&gt;
+
+    &lt;div class=&quot;centered&quot;&gt;
+      &lt;p&gt;&lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/breakout-hackvision/archive/master.zip&quot; role=&quot;button&quot;&gt;
+    &lt;span class=&quot;octicon octicon-cloud-download&quot;&gt;&lt;/span&gt; Download
+  &lt;/a&gt;
+  &lt;a class=&quot;btn&quot; href=&quot;https://github.com/ep1cman/breakout-hackvision&quot; role=&quot;button&quot; target=&quot;_blank&quot;&gt;
+    &lt;span class=&quot;octicon octicon-logo-github&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;If you feel the game is running too slow just edit the line “TV.delay_frame(2)”
+at the end to “TV.delay_frame(1)”&lt;/p&gt;
+
+    &lt;p&gt;The following libraries are also required:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://code.google.com/p/arduino-tvout/downloads/detail?name=TVoutBeta1.zip&quot;&gt;TVout Libary&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://nootropicdesign.com/hackvision/downloads/Controllers.zip&quot;&gt;Hackvision Controllers library&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-2-3&quot;&gt;
+    &lt;div class=&quot;video-container&quot;&gt;
+      &lt;object data=&quot;https://www.youtube.com/embed/rbttu301--4&quot;&gt;
+        &lt;p&gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+        &lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+      &lt;/object&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+
+</feed>
